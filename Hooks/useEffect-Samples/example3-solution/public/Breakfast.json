@@ -1,0 +1,5 @@
+[
+  { "id": 0, "item": "Eggs and Bacon", "price": "$10.99" },
+  { "id": 1, "item": "Biscuits and Gravy", "price": "$7.99" },
+  { "id": 2, "item": "Waffles with Sausage", "price": "$8.99" }
+]

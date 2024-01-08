@@ -1,0 +1,5 @@
+[
+  { "id": 0, "item": "New York Strip", "price": "$50.00" },
+  { "id": 1, "item": "Fettucini Alfredo", "price": "$19.50" },
+  { "id": 2, "item": "Blackened Grouper", "price": "$28.00" }
+]

@@ -1,0 +1,56 @@
+.navContainer {
+  background-color: #fee2e2;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.navHeading {
+  font-size: 2.875rem;
+  font-weight: bold;
+}
+
+.navTextColor {
+  color: #b91c1c;
+}
+
+.navLinksContainer {
+  display: flex;
+  flex-direction: column;
+  margin: 20px 0;
+}
+
+.navLink {
+  text-transform: capitalize;
+  font-size: 1.125rem;
+  letter-spacing: 0.05em;
+  transition-duration: 300ms;
+  padding: 0.25rem 0;
+}
+
+.navLink:hover {
+  color: #f87171;
+}
+
+@media (min-width: 768px) {
+  .navContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+  }
+
+  .navLinksContainer {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .navLinksContainer > *:not(:last-child) {
+    margin-right: 1.5rem;
+  }
+}
